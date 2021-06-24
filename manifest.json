@@ -5,10 +5,9 @@
   "prefer_related_applications": false,
   "start_url": ".",
   "scope": "/",
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff",
-  "description": "Blog yang membahas tentang tutorial, trik, dan widget Blogger juga SEO dan Internet.",
-  "lang": "id",
+  "background_color": "#fff",
+  "theme_color": "#01579b",
+  "description": "Teknologi telah menjadi bagian hidup dan lifestyle manusia. Hidup sehat juga kembali populer dan berkembang menjadi trend lifestyle milenial.",
   "icons": [
     {
       "src": "https://cdn.haruspinter.com/android-icon-36x36.png",
@@ -59,5 +58,8 @@
       "density": "4.0",
       "purpose": "any maskable"
     }
-  ]
+  ],
+  "serviceworker": {
+    "src": "https://cdn.haruspinter.com/sw.js"
+  }
 }
